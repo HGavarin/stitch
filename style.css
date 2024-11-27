@@ -1,0 +1,81 @@
+#change-gif{
+    width: 20vw;
+    object-fit: contain;
+    border-radius: 2rem;
+    border: 1px black solid;
+    margin: 2rem;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("img/photo-1507525428034-b723cf961d3e.jpg");
+    background-position: center;
+    height: 100vh;
+}
+button{
+    background-color: aquamarine;
+    font-size: 1.5rem;
+}
+#stitch{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: red;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 10rem;
+}
+#game-over-sub-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#game-over-main-div{
+    width: 90vw;
+    height: 90vh;
+    position: absolute;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    border-radius: 2rem;
+}
+progress{
+    width: 20rem;
+    height: 30px;
+    background-color: #4caf50;
+}
+#progress-div{
+    margin: 3rem;
+}
+#progress-bar-health-div{
+    width: 20rem;
+    height: 1rem;
+    background-color: #6e6e6e;
+}
+#progress-bar-health{
+    width: 100%;
+    height: 1rem;
+    background-color: #75c275;
+}
+#progress-bar-stamina{
+    width: 100%;
+    height: 1rem;
+    background-color: #75c275;
+}
+#progress-bar-sleep{
+    width: 100%;
+    height: 1rem;
+    background-color: #75c275;
+}
+#progress-bar-fun{
+    width: 100%;
+    height: 1rem;
+    background-color: #75c275;
+}
